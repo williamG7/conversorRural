@@ -2,7 +2,6 @@
 
 [![MakeCode Arcade](https://img.shields.io/badge/MakeCode-Arcade-orange?style=for-the-badge&logo=microsoft)](https://arcade.makecode.com)
 [![Python](https://img.shields.io/badge/Python-MakeCode-blue?style=for-the-badge&logo=python)](https://arcade.makecode.com)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
 Un juego interactivo desarrollado en **MakeCode Arcade** que enseña conversiones de unidades a través de un sistema de intercambio de productos rurales por leña.
 

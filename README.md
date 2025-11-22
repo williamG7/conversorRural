@@ -159,7 +159,7 @@ Este juego fue diseñado para:
 <div align="center">
   <img src="https://github.com/williamG7.png" width="100" style="border-radius: 50%;" alt="williamG7"/>
   <br>
-  <strong>William García</strong>
+  <strong>William Guzmán</strong>
   <br>
   <a href="https://github.com/williamG7">
     <img src="https://img.shields.io/badge/GitHub-williamG7-181717?style=for-the-badge&logo=github" alt="GitHub williamG7"/>

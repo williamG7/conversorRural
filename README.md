@@ -16,7 +16,7 @@ Un juego interactivo desarrollado en **MakeCode Arcade** que enseña conversione
 
 La siguiente imagen muestra la pantalla de inicio del programa:
 
-![Vista del programa]()
+![Vista del programa](arcade-conversor-rural-williamG7.png)
 
 ---
 

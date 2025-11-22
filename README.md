@@ -12,6 +12,14 @@ Un juego interactivo desarrollado en **MakeCode Arcade** que enseña conversione
 
 ---
 
+## Vista Previa del Prorgama
+
+La siguiente imagen muestra la pantalla de inicio del programa:
+
+![Vista del programa]()
+
+---
+
 ## Características
 
 - **Sistema de conversión bidireccional**: Convierte productos a leña o leña a productos
@@ -82,14 +90,6 @@ Un juego interactivo desarrollado en **MakeCode Arcade** que enseña conversione
 -  Validación de números enteros para animales
 -  Soporte de decimales para productos como patatas
 
-### Sistema de Estados
-```python
-Estados del juego:
-- "bienvenida" → Pantalla inicial
-- "mapa" → Jugador explorando
-- "menu_conversion" → Menú de selección activo
-```
-
 ### Cálculos de Conversión
 
 **Productos a Leña:**
@@ -143,7 +143,7 @@ El juego funciona en:
 
 ---
 
-## Propósito Educativo
+## Propósito
 
 Este juego fue diseñado para:
 - Enseñar **conversiones de unidades**
@@ -167,28 +167,5 @@ Este juego fue diseñado para:
 </div>
 
 ---
-
-## 📄 Licencia
-
-Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
-
----
-
-## Capturas de Pantalla
-
-### Pantalla de Inicio
-![Pantalla de Inicio](screenshots/inicio.png)
-
----
-
-<div align="center">
   
 ⭐ **Si te gusta este proyecto, no olvides darle una estrella en GitHub** ⭐
-
-**[🎮 Jugar Ahora](https://arcade.makecode.com)** | **[📝 Reportar un Bug](https://github.com/williamG7/conversorRural/issues)** | **[💡 Sugerir una Mejora](https://github.com/williamG7/conversorRural/issues)**
-
-</div>
-
----
-
-**Hecho con ❤️ para la educación**

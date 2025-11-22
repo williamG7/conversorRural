@@ -1,18 +1,18 @@
-# 🌲 Conversor Rural - Juego Educativo
+# Conversor Rural 
 
 [![MakeCode Arcade](https://img.shields.io/badge/MakeCode-Arcade-orange?style=for-the-badge&logo=microsoft)](https://arcade.makecode.com)
 [![Python](https://img.shields.io/badge/Python-MakeCode-blue?style=for-the-badge&logo=python)](https://arcade.makecode.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
-Un juego educativo interactivo desarrollado en **MakeCode Arcade** que enseña conversiones de unidades a través de un sistema de intercambio de productos rurales por leña.
+Un juego interactivo desarrollado en **MakeCode Arcade** que enseña conversiones de unidades a través de un sistema de intercambio de productos rurales por leña.
 
-## 📖 Descripción
+## Descripción
 
 **Conversor Rural** es un juego donde los jugadores aprenden sobre proporciones y conversiones matemáticas mediante el intercambio de productos agrícolas (gallinas, patatas, cabras, huevos, caballos) por leña. El juego simula un entorno rural con NPCs (personajes no jugadores) que facilitan diferentes tipos de conversiones.
 
 ---
 
-## 🎮 Características
+## Características
 
 - **Sistema de conversión bidireccional**: Convierte productos a leña o leña a productos
 - **5 productos diferentes** con sus propias tasas de conversión
@@ -23,7 +23,7 @@ Un juego educativo interactivo desarrollado en **MakeCode Arcade** que enseña c
 
 ---
 
-## 🕹️ Controles
+## Controles
 
 | Tecla | Acción |
 |-------|--------|
@@ -33,7 +33,7 @@ Un juego educativo interactivo desarrollado en **MakeCode Arcade** que enseña c
 
 ---
 
-## 📊 Tabla de Conversiones
+## Tabla de Conversiones
 
 | Producto | Equivalencia en Leña |
 |----------|---------------------|
@@ -45,7 +45,7 @@ Un juego educativo interactivo desarrollado en **MakeCode Arcade** que enseña c
 
 ---
 
-## 🎯 Cómo Jugar
+## Cómo Jugar
 
 1. **Inicio**: El juego comienza con una pantalla de bienvenida
 2. **Movimiento**: Usa las flechas o WASD para mover tu personaje
@@ -62,7 +62,7 @@ Un juego educativo interactivo desarrollado en **MakeCode Arcade** que enseña c
 
 ---
 
-## 🛠️ Tecnologías
+## Tecnologías
 
 - **Lenguaje**: Python (MakeCode Arcade)
 - **Plataforma**: MakeCode Arcade
@@ -75,44 +75,12 @@ Un juego educativo interactivo desarrollado en **MakeCode Arcade** que enseña c
 
 ---
 
-## 📦 Estructura del Código
-
-```
-├── Variables globales
-│   ├── mi_personaje: Sprite del jugador
-│   ├── npc_izquierdo: NPC productos→leña
-│   ├── npc_derecho: NPC leña→productos
-│   └── estado_juego: Control de estados
-│
-├── Funciones de utilidad
-│   ├── obtener_nombre_producto()
-│   ├── obtener_imagen_producto()
-│   ├── calcular_productos_a_lena()
-│   ├── calcular_lena_a_productos()
-│   └── redondear_resultado()
-│
-├── Funciones de juego
-│   ├── mostrar_bienvenida()
-│   ├── iniciar_mapa()
-│   ├── verificar_proximidad()
-│   ├── menu_productos_a_lena()
-│   ├── menu_lena_a_productos()
-│   └── mostrar_resultado()
-│
-└── Manejadores de eventos
-    ├── on_a_pressed()
-    ├── on_b_pressed()
-    └── game.on_update_interval()
-```
-
----
-
-## 🎨 Características Técnicas
+## Características Técnicas
 
 ### Validación de Datos
-- ✅ Validación de cantidades positivas
-- ✅ Validación de números enteros para animales
-- ✅ Soporte de decimales para productos como patatas
+-  Validación de cantidades positivas
+-  Validación de números enteros para animales
+-  Soporte de decimales para productos como patatas
 
 ### Sistema de Estados
 ```python
@@ -144,7 +112,7 @@ caballo: kg_leña ÷ 12
 
 ---
 
-## 🚀 Instalación y Uso
+## Instalación y Uso
 
 ### Opción 1: Jugar en línea (Recomendado)
 1. Visita [MakeCode Arcade](https://arcade.makecode.com)
@@ -165,17 +133,17 @@ Luego abre el proyecto en MakeCode Arcade e importa el archivo del proyecto.
 
 ---
 
-## 📱 Compatibilidad
+## Compatibilidad
 
 El juego funciona en:
-- ✅ Navegadores web (Chrome, Firefox, Edge, Safari)
-- ✅ Emulador de MakeCode Arcade
-- ✅ Dispositivos hardware compatibles con MakeCode Arcade
-- ✅ Dispositivos móviles
+-  Navegadores web (Chrome, Firefox, Edge, Safari)
+-  Emulador de MakeCode Arcade
+-  Dispositivos hardware compatibles con MakeCode Arcade
+-  Dispositivos móviles
 
 ---
 
-## 🎓 Propósito Educativo
+## Propósito Educativo
 
 Este juego fue diseñado para:
 - Enseñar **conversiones de unidades**
@@ -183,37 +151,10 @@ Este juego fue diseñado para:
 - Comprender **proporciones y razones**
 - Desarrollar **pensamiento lógico**
 - Aprender a través del **juego interactivo**
-
+  
 ---
 
-## 🤝 Contribuciones
-
-Las contribuciones son bienvenidas. Para contribuir:
-
-1. Haz un Fork del proyecto
-2. Crea una rama para tu característica (`git checkout -b feature/NuevaCaracteristica`)
-3. Commit tus cambios (`git commit -m 'Añadir nueva característica'`)
-4. Push a la rama (`git push origin feature/NuevaCaracteristica`)
-5. Abre un Pull Request
-
----
-
-## 📝 Ideas para Mejoras Futuras
-
-- [ ] Añadir más productos y NPCs
-- [ ] Sistema de inventario persistente
-- [ ] Modo multijugador
-- [ ] Niveles de dificultad progresivos
-- [ ] Sistema de logros y recompensas
-- [ ] Tabla de clasificación global
-- [ ] Más efectos visuales y animaciones
-- [ ] Tutorial interactivo paso a paso
-- [ ] Modo de práctica libre
-- [ ] Desafíos diarios
-
----
-
-## 👨‍💻 Autor
+## Autor
 
 <div align="center">
   <img src="https://github.com/williamG7.png" width="100" style="border-radius: 50%;" alt="williamG7"/>
@@ -233,27 +174,10 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 
 ---
 
-## 🙏 Agradecimientos
-
-- **MakeCode Arcade** por proporcionar una plataforma educativa excepcional
-- **Comunidad de MakeCode** por los recursos y documentación
-- Todos los educadores que usan este proyecto como herramienta de aprendizaje
-
----
-
-## 📸 Capturas de Pantalla
+## Capturas de Pantalla
 
 ### Pantalla de Inicio
 ![Pantalla de Inicio](screenshots/inicio.png)
-
-### Mapa del Juego
-![Mapa](screenshots/mapa.png)
-
-### Menú de Conversión
-![Menú](screenshots/menu.png)
-
-### Resultado del Intercambio
-![Resultado](screenshots/resultado.png)
 
 ---
 
